@@ -41,3 +41,33 @@ White: #FFF
     color: #1A1A1A;
     font-size:large;
 }
+
+@media (max-width:768px) {
+    
+    .nav-bar .container-nav  {
+        flex-direction: column;
+        text-align: center;
+        height: 100%;        
+    }
+
+    .nav-bar .container-nav img {
+        width:120px;
+        padding-top:5px;
+        margin:0;
+        
+    }
+
+    .nav-links {
+        width: 80%;
+        justify-content: center;
+        padding-top: 5px;
+        margin: 0;
+    }
+}
+
+@media (max-width:600px) {
+    .nav-links {
+        display: flex;
+        justify-content: ;
+    }
+}
