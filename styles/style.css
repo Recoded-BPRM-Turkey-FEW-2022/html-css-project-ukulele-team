@@ -6,3 +6,38 @@ Green: #00B172
 White: #FFF
 
 */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar {
+    height: 70px;
+    display:flex;
+    align-items:center;  
+}
+
+.nav-bar .container-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    width: 100%;  
+}
+
+.nav-bar img {
+    width: 150px;
+    margin-left: 20px;
+}
+
+.container-nav .nav-links {
+    margin-right:10px;
+}
+
+.nav-links a {
+    margin-left: 10px;
+    margin-right: 10px; 
+    text-decoration: none;
+    color: #1A1A1A;
+    font-size:large;
+}
