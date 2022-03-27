@@ -6,3 +6,52 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    font-family: sans-serif;
+}
+
+.whats {
+    text-align: center;
+    width: 60%;
+
+    margin: 30px auto 30px;
+}
+.whats h2 {
+    margin: 30px auto 70px;
+    
+
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 30%;
+    text-align: center;
+}
+.card img {
+    width: 60px;
+}
+.card h4 {
+    color: #00B172;
+    font-size: 20px;
+}
+.card p {
+    width: 70%;
+    color: #777;
+    margin: 0 auto;
+}
+
+@media (max-width:768px) {
+    .cards {
+        flex-direction: column;
+        text-align:center ;
+    }
+    .whats {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
