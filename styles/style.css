@@ -57,9 +57,7 @@ nav{
     .container-nav  {
         flex-direction: column;
         align-items: center;
-        text-align: center;
-
-             
+        text-align: center;       
     }
 
     .container-nav img {
@@ -89,19 +87,15 @@ nav{
         margin: 0;
         padding: 10px;
     }
-        
-=======
+}
 
 .whats {
     text-align: center;
     width: 60%;
-
     margin: 30px auto 30px;
 }
 .whats h2 {
     margin: 30px auto 70px;
-    
-
 }
 .cards {
     display: flex;
