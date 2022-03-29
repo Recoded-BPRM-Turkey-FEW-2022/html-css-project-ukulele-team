@@ -132,3 +132,22 @@ nav{
 
     }
 }
+
+.background__image {
+    background-image: url(/images/landing.jpg);
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-content: stretch;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    text-align: center;
+    background-size:cover;  
+}
+.background__image span {
+    font-size: 2rem; 
+    line-height: 5rem; 
+    font-weight: bold;
+}
