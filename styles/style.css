@@ -153,3 +153,30 @@ nav{
     font-weight: bold;
 }
 
+
+.music-spotlight {
+    margin: auto;
+    background:#00B172;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+.spotlight-text {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    color: white;
+    margin-left:10%;
+}
+.spotlight-img {
+    flex: 1;
+}
+.kanye {
+    width: 60%;
+}
+.spotlight-title {
+    border-bottom: 4px solid white;
+}
+
