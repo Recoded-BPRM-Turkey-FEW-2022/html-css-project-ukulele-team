@@ -176,7 +176,10 @@ nav{
 .kanye {
     width: 60%;
 }
-.spotlight-title {
-    border-bottom: 4px solid white;
-}
 
+.logo {
+    position: absolute;
+    width: 100px;
+    margin-left:30%;
+    margin-top: 200px;
+}
