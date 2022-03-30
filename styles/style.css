@@ -146,11 +146,13 @@ nav{
     text-align: center;
     background-size:cover;  
 }
+
 .background__image span {
-    font-size: 2rem; 
-    line-height: 5rem; 
+    font-size: 3rem; /*changed to 3rem to make it bigger-Dilara*/
+    line-height: 5rem;
     font-weight: bold;
 }
+
 
 .music-spotlight {
     margin: auto;
@@ -177,3 +179,4 @@ nav{
 .spotlight-title {
     border-bottom: 4px solid white;
 }
+
